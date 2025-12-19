@@ -11,6 +11,10 @@ public class Passenger {
     }
     Passenger(String first_name, String last_name, int age, boolean gender){
         this();
+        setFirst_name(first_name);
+        setLast_name(last_name);
+        setAge(age);
+        setGender(gender);
     }
 
     public int getId() {
